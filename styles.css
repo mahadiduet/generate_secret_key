@@ -1,0 +1,21 @@
+main{
+    width: 1140px;
+    margin: auto;
+}
+.genarate{
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.part1{
+    background-color: black;
+    width: 100%;
+    color: white;
+}
+
+.part2{
+    background-color: black;
+    width: 100%;
+    color: white;
+}
