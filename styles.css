@@ -1,21 +1,96 @@
-main{
+main {
     width: 1140px;
     margin: auto;
 }
-.genarate{
+
+.genarate {
     display: flex;
     gap: 20px;
     justify-content: space-around;
+    height: 500px;
 }
 
-.part1{
+.part1 {
     background-color: black;
     width: 100%;
     color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
 }
 
-.part2{
+.part2 {
     background-color: black;
     width: 100%;
     color: white;
+    /* padding: 50px; */
+}
+
+.generate_key_btn {
+    background-color: #007BFF;
+    color: white;
+    width: 220px;
+    /* margin: auto; */
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 24px;
+}
+
+.generet_input {
+    background-color: #333333;
+    color: white;
+    width: 180px;
+    border: 2px solid;
+    border-radius: 10px;
+    border-color: white;
+    padding: 20px;
+    font-size: 32px;
+    display: block !important;
+    text-align: center;
+}
+
+.enter_pin {
+    font-size: 32px;
+}
+
+.enter_pin input {
+    background-color: #333333;
+    color: white;
+    width: 180px;
+    border: 2px solid;
+    border-radius: 10px;
+    border-color: white;
+    padding: 15px;
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.key_btn {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.key_btn button {
+    /* padding: 10px 30px; */
+    background-color: #333333;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    padding: 20px 0px;
+}
+
+.key_btn input {
+    /* padding: 10px 30px; */
+    background-color: #333333;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    padding: 20px 0px;
 }

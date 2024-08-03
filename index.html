@@ -1,19 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Secret key</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <main>
         <div class="genarate">
             <div id="part1" class="part1">
-                
+                <button class="generate_key_btn">Generate Key Secret</button>
+                <input type="text" class="generet_input" value="123456" disabled>
             </div>
-            <div id="part2" class="part2">Part2</div>
+            <div id="part2" class="part2">
+                <div style="padding: 70px;">
+                    <div class="enter_pin">
+                        <label for="">Enter PIN:</label>
+                        <input type="text" class="display" id="display" value="123456">
+                    </div>
+                    <div class="key_btn">
+                        <input type="button" class="input_btn" value="1">
+                        <input type="button" class="input_btn" value="2">
+                        <input type="button" class="input_btn" value="3">
+                        <input type="button" class="input_btn" value="4">
+                        <input type="button" class="input_btn" value="5">
+                        <input type="button" class="input_btn" value="6">
+                        <input type="button" class="input_btn" value="7">
+                        <input type="button" class="input_btn" value="8">
+                        <input type="button" class="input_btn" value="9">
+                        <input type="button" class="input_btn" value="0">
+                        <input type="button" class="input_btn" style="background-color: #F0AD4E;" value="X">
+                        <input type="button" class="input_btn" style="background-color: #5CB85C;" value="Submit">
+                        <input type="button" class="input_btn" style="background-color: #D9534F;" value="Clear">
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
+    <script src="calculate.js"></script>
 </body>
+
 </html>
