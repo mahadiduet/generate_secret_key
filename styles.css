@@ -7,7 +7,7 @@ main {
     display: flex;
     gap: 20px;
     justify-content: space-around;
-    height: 500px;
+    height: 550px;
 }
 
 .part1 {
@@ -93,4 +93,16 @@ main {
     border: none;
     border-radius: 5px;
     padding: 20px 0px;
+}
+
+.success_massage{
+    color: white;
+    text-align: center;
+    display: none;
+}
+
+.fail_massage{
+    color: white;
+    text-align: center;
+    display: none;
 }

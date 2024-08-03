@@ -6,20 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Secret key</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
     <main>
         <div class="genarate">
             <div id="part1" class="part1">
-                <button class="generate_key_btn">Generate Key Secret</button>
-                <input type="text" class="generet_input" value="123456" disabled>
+                <button class="generate_key_btn" id="generate_input">Generate Key Secret</button>
+                <input type="text" class="generet_input" id="generate_display" value="" disabled>
             </div>
             <div id="part2" class="part2">
                 <div style="padding: 70px;">
                     <div class="enter_pin">
                         <label for="">Enter PIN:</label>
-                        <input type="text" class="display" id="display" value="123456">
+                        <input type="text" class="display" id="display" value="" maxlength="6">
                     </div>
                     <div class="key_btn">
                         <input type="button" class="input_btn" value="1">
@@ -36,7 +37,12 @@
                         <input type="button" class="input_btn" style="background-color: #5CB85C;" value="Submit">
                         <input type="button" class="input_btn" style="background-color: #D9534F;" value="Clear">
                     </div>
+                    <div>
+                        <p class="success_massage" id="success_massage"><i class="fa-solid fa-square-check"></i>Your Secret Key is matched!</p>
+                        <p class="fail_massage" id="fail_massage"><i class="fa-solid fa-square-check"></i>Your Secret Key is not matched!</p>
+                    </div>
                 </div>
+                
             </div>
         </div>
     </main>
