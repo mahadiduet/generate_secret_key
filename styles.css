@@ -106,3 +106,18 @@ main {
     text-align: center;
     display: none;
 }
+
+@media (max-width: 768px) {
+    .key_btn{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .genarate{
+        height: 700px;
+    }
+    .key_btn{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
